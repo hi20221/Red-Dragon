@@ -1,23 +1,18 @@
 /*
 
-█   █   █       █    █▅   ▅█    █      █     ██████     █      █    █     █
-█ █     █       █    █  █ █  █    █      █       █        █      █    █     █
-██      █       █    █   █   █    █      █       █        ████████    █     █
-█ █     █       █    █       █    █      █       █        █      █    █     █
-█   █    ▀▅▃▅▀    █        █    ▀▅▃▅▀       █        █      █    ▀▅▃▅▀  
-╦   ╦      ╔══╗      ╦        ╦     ╔══╗         ╦        ╦      ╦      ╔══╗
+
 
 ╔═══❤️═══🧡═══💛═══🤍═══💚═══💙═══💜═══╗
 ║
 ║
 ║
-╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗞.𝗣𝗿𝗮𝗯𝗵𝗮𝘀𝗵𝗮´]
+╠𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`DUSHAN CHANUKA´]
 ║
 ║
 ║
-╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯
+╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎DUSHAN❯❯
 ║
-╠═══════(github.com/prabhasha2006)═══════╣
+╠══════════════╣
 ║
 ║    ▒ ▒          ▒ ▒ ▒       ▒ ▒ ▒ ▒ ▒  
 ║    ▒    ▒      ▒     ▒          ▒      
@@ -165,7 +160,7 @@ async function startKUMUTHU() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let xeonfek = await KUMUTHU.sendContact(callerId, global.owner)
-    KUMUTHU.sendMessage(callerId, { text: `⚠️RED-DRAGON Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
+    KUMUTHU.sendMessage(callerId, { text: `⚠️MR-DUSHAN Automatic Block System!\n⚠️Don't Call Bot!\n⚠️Please Ask Or Contact The Owner To Unblock You!`}, { quoted : xeonfek })
     await sleep(8000)
     await KUMUTHU.updateBlockStatus(callerId, "block")
     }
